@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Get in Touch</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <img src="PHOTO.jpg" alt="Background Image">
+            <h1 id="typewriter-text"></h1>
+            <h2>I Am A Developer.</h2>
+            <button id="hire-me-button" class="button primary">Hire me!</button>
+        </section>
+        <section class="about-me" id="about-me">
+            <h2>About Me</h2>
+            <p>Passionate web developer driven by a relentless pursuit of innovation and a commitment to crafting
+                exceptional digital experiences!. I specialize in building responsive, user-friendly applications using modern web technologies, with a strong focus on clean design and performance. 
+                I am constantly exploring new tools and technologies to enhance my skills and deliver impactful solutions.</p>
+
+        </section>
+
+        <section class="resume" id="resume">
+            <div class="resume-block" id="experience">
+                <h2 class="resume-heading">Experience</h2>
+                <div class="resume-grid" aria-label="Experience">
+                    <div class="resume-item">
+                        <h3>Fresher</h3>
+                        <p class="resume-sub">Open to opportunities</p>
+                        <p class="resume-meta">2026 - Present</p>
+                    </div>
+                    <div class="resume-item">
+                        <h3>Internship</h3>
+                        <h3>(RETECH  SOLUTION)</h3>
+                        <p class="resume-sub">Web Development Intern</p>
+                        <p class="resume-meta">2025</p>
+                    </div>
+ 
+                </div>
+            </div>
+
+            <div class="resume-block" id="education">
+                <h2 class="resume-heading">Education</h2>
+                <div class="edu-list" aria-label="Education">
+                    <div class="edu-item">
+                        <div class="edu-left">
+                            <h3>Bachelor's in Information Technology</h3>
+                            <p class="resume-meta">2022 - 2026</p>
+                        </div>
+                        <div class="edu-right">
+                            <p class="edu-school">S.A.ENGINEERING COLLEGE</p>
+                            <p class="edu-desc">Relevant coursework: Web Development, Databases, OOPs, Java, Python, C, AI, Data Structure, Software Engineering.</p>
+                            <p>CGPA: 8.78</p>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-left">
+                            <h3>Higher Secondary Education</h3>
+                            <p class="resume-meta">2022</p>
+                        </div>
+                        <div class="edu-right">
+                            <p class="edu-school">N.S.N MATRICULATION HIGHER SECONDARY SCHOOL</p>
+                            <p class="edu-desc">Focus: Bio-Maths(PCMB) Stream.</p>
+                            <p>82.8%</p>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-left">
+                            <h3>Secondary Education</h3>
+                            <p class="resume-meta">2020</p>
+                        </div>
+                        <div class="edu-right">
+                            <p class="edu-school">N.S.N MATRICULATION HIGHER SECONDARY SCHOOL</p>
+                            <p class="edu-desc">Focus: General Stream.</p>
+                            <p>79.4%</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h2 class="section-title"> Skills</h2>
+            <div class="skills-grid" aria-label="Technical skills">
+                <div class="skill-pill">
+                    <div class="skill-icons" aria-label="HTML, CSS, JavaScript">
+                        <img class="skill-icon" src="assets/skills/html5.svg" alt="HTML">
+                        <img class="skill-icon" src="assets/skills/css3.svg" alt="CSS">
+                        <img class="skill-icon" src="assets/skills/javascript.svg" alt="JavaScript">
+                    </div>
+                    <div class="skill-label">HTML, CSS, JavaScript</div>
+                </div>
+                <div class="skill-pill">
+                    <div class="skill-icons" aria-label="Python, SQL">
+                        <img class="skill-icon" src="assets/skills/python.svg" alt="Python">
+                        <img class="skill-icon" src="assets/skills/sql.svg" alt="SQL">
+                    </div>
+                    <div class="skill-label">Python, SQL</div>
+                </div>
+                <div class="skill-pill">
+                    <div class="skill-icons" aria-label="C, Java">
+                        <img class="skill-icon" src="assets/skills/c.svg" alt="C">
+                        <img class="skill-icon" src="assets/skills/java.svg" alt="Java">
+                    </div>
+                    <div class="skill-label">C and Java</div>
+                </div>
+                <div class="skill-pill">
+                    <div class="skill-icons" aria-label="Git, GitHub">
+                        <img class="skill-icon" src="assets/skills/git.svg" alt="Git">
+                        <img class="skill-icon" src="assets/skills/github.svg" alt="GitHub">
+                    </div>
+                    <div class="skill-label">Git and GitHub</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Online Portfolio Website</h3>
+                    <p>Designed and developed a fully responsive personal portfolio using HTML, CSS, and JavaScript, featuring modern UI design, smooth animations, and interactive components to enhance user experience.</p>
+                    <p class="project-meta">Technologies: HTML, CSS, JavaScript</p>
+                </article>
+                <article class="project-card">
+                    <h3>Organ Donation</h3>
+                    <p>Designed and implemented an Organ Donation Management System using Django, enabling secure user authentication, donor and recipient data management, and a responsive frontend for seamless user experience</p>
+                    <p class="project-meta">Technologies: HTML, CSS, Django, Python, SQLite</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section-title contact-title">Get in Touch</h2>
+            <ul class="contact-list" aria-label="Contact details">
+                <li class="contact-item">
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="18" height="18" focusable="false">
+                            <path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/>
+                        </svg>
+                    </span>
+                    <span class="contact-text">5/9,Kattabomman Street,Gandhi Nagar,Chrompet,Chennai-600044</span>
+                </li>
+                <li class="contact-item">
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="18" height="18" focusable="false">
+                            <path fill="currentColor" d="M6.6 10.8c1.5 3 3.6 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.3 21 3 13.7 3 4c0-.6.4-1 1-1h3.1c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/>
+                        </svg>
+                    </span>
+                    <a class="contact-text" href="tel:+911234567890">+917395968733</a>
+                </li>
+                <li class="contact-item">
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="18" height="18" focusable="false">
+                            <path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/>
+                        </svg>
+                    </span>
+                    <a class="contact-text" href="mailto:name@gmail.com">priyadharshinisk2020@gmail.com
+</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        
+        <ul>
+            <li><a href="https://www.linkedin.com/in/priyadharshini-s-429275274/"><b>LinkedIn</b></a></li>
+            <li><a href="https://www.instagram.com/priya_dharshini_sk/"><b>Instagram</b></a></li>
+
+            <a href="https://t.me/Priyusk2506" target="_blank"><b>Telegram</b></a>
+            <li><a href="https://github.com/Priyu2506282071/"><b>GitHub</b></a></li>
+        </ul>
+        <p>&copy; 2023 Personal Portfolio Website</p>
+    </footer>
+</body>
+</html>

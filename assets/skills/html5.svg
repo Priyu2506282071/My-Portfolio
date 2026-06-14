@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="HTML">
+  <title>HTML</title>
+  <path fill="#E44D26" d="M12 4h40l-3.6 46.2L32 60 15.6 50.2 12 4z"/>
+  <path fill="#F16529" d="M32 8v46.6l13.2-3.7L48.3 8H32z"/>
+  <path fill="#fff" d="M32 18H22.2l.3 4.2H32v4.1h-9.2l.7 10.2 8.5 2.4v-4.3l-4.5-1.2-.3-3.6H32v-4.1H26.9l-.3-4H32V18z"/>
+  <path fill="#fff" d="M32 34.6v4.3l8.4-2.4.9-12.2H32v4.1h4.6l-.4 4.7L32 34.6zM32 18v4.1h9.7l.3-4.1H32z"/>
+</svg>
